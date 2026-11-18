@@ -1,0 +1,11 @@
+
+{
+  "name": "quality-gate-project",
+  "version": "1.0.0",
+  "description": "CI/CD Quality Gate",
+  "scripts": {
+    "lint": "node --check index.js",
+    "test": "node --test",
+    "build": "node build.js"
+  }
+}
